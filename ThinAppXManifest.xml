@@ -1,0 +1,124 @@
+<Package IgnorableNamespaces="appv appv1.1 appv1.2" appv:IgnorableNamespaces="appv1.1 appv1.2" xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:appv="http://schemas.microsoft.com/appv/2010/manifest" xmlns:appv1.1="http://schemas.microsoft.com/appv/2013/manifest" xmlns:appv1.2="http://schemas.microsoft.com/appv/2014/manifest">
+	<Identity Name="Reserved" Publisher="CN=Reserved" Version="16.0.18227.20162" appv:PackageId="9AC08E99-230B-47e8-9721-4577B7F124EA" appv:VersionId="1A8308C7-90D1-4200-B16E-646F163A08E8"/>
+	<Properties>
+		<DisplayName>Microsoft Office 15</DisplayName>
+		<PublisherDisplayName>Reserved</PublisherDisplayName>
+		<Description>Reserved</Description>
+		<Logo>Reserved.jpeg</Logo>
+		<appv:AppVPackageDescription>No description entered</appv:AppVPackageDescription>
+		<appv:AppVInProcExt>true</appv:AppVInProcExt>
+	</Properties>
+	<Resources>
+		<Resource Language="en-us"/>
+	</Resources>
+	<Prerequisites>
+		<OSMinVersion>6.2</OSMinVersion>
+		<OSMaxVersionTested>6.2</OSMaxVersionTested>
+		<appv:TargetOSes SequencingStationProcessorArchitecture="x86"/>
+	</Prerequisites>
+	<Applications xmlns="http://schemas.microsoft.com/appv/2010/manifest">
+		<Application Id="shared" Origin="Application">
+			<Target>shared</Target>
+			<VisualElements>
+				<Name>shared</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="Access" Origin="Application">
+			<Target>Access</Target>
+			<VisualElements>
+				<Name>Access</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="Excel" Origin="Application">
+			<Target>Excel</Target>
+			<VisualElements>
+				<Name>Excel</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="PowerPoint" Origin="Application">
+			<Target>PowerPoint</Target>
+			<VisualElements>
+				<Name>PowerPoint</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="Publisher" Origin="Application">
+			<Target>Publisher</Target>
+			<VisualElements>
+				<Name>Publisher</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="Outlook" Origin="Application">
+			<Target>Outlook</Target>
+			<VisualElements>
+				<Name>Outlook</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="Word" Origin="Application">
+			<Target>Word</Target>
+			<VisualElements>
+				<Name>Word</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="[{ProgramFilesCommonX64}]\Microsoft Shared\OFFICE16\MSOXMLED.EXE" Origin="Application" TargetInPackage="true">
+			<Target>[{ProgramFilesCommonX64}]\Microsoft Shared\OFFICE16\MSOXMLED.EXE</Target>
+			<VisualElements>
+				<Name>Office XML Handler</Name>
+				<Version>16.0.18227.20162</Version>
+			</VisualElements>
+		</Application>
+		<Application Id="DCF" Origin="Application">
+			<Target>DCF</Target>
+			<VisualElements>
+				<Name>DCF</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="OneNote" Origin="Application">
+			<Target>OneNote</Target>
+			<VisualElements>
+				<Name>OneNote</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="OSM" Origin="Application">
+			<Target>OSM</Target>
+			<VisualElements>
+				<Name>OSM</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="OSMUX" Origin="Application">
+			<Target>OSMUX</Target>
+			<VisualElements>
+				<Name>OSMUX</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="Lync" Origin="Application">
+			<Target>Lync</Target>
+			<VisualElements>
+				<Name>Lync</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="PowerPivot" Origin="Application">
+			<Target>PowerPivot</Target>
+			<VisualElements>
+				<Name>PowerPivot</Name>
+			</VisualElements>
+		</Application>
+		<Application Id="PowerView" Origin="Application">
+			<Target>PowerView</Target>
+			<VisualElements>
+				<Name>PowerView</Name>
+			</VisualElements>
+		</Application>
+	</Applications>
+	<appv:UsedKnownFolders>
+		<appv:KnownFolder ID="{F7F1ED05-9F6D-47A2-AAAE-29D317C6F066}"/>
+		<appv:KnownFolder ID="{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}"/>
+		<appv:KnownFolder ID="{FD228CB7-AE11-4AE3-864C-16F3910AB8FE}"/>
+		<appv:KnownFolder ID="{F38BF404-1D43-42F2-9305-67DE0B28FC23}"/>
+		<appv:KnownFolder ID="{62AB5D82-FDC1-4DC3-A9DD-070D1D495D97}"/>
+		<appv:KnownFolder ID="{905e63b6-c1bf-494e-b29c-65b732d3d21a}"/>
+		<appv:KnownFolder ID="{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}"/>
+		<appv:KnownFolder ID="{6365D5A7-0F0D-45E5-87F6-0DA56B6A4F7D}"/>
+		<appv:KnownFolder ID="{6D809377-6AF0-444b-8957-A3773F02200E}"/>
+		<appv:KnownFolder ID="{D65231B0-B2F1-4857-A4CE-A8E7C6EA7D27}"/>
+	</appv:UsedKnownFolders>
+</Package>
